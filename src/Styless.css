@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+
+.timer {
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 15px;
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.nowTime {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+.dateDisplay {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #4a90e2;
+}
+
+/* Age Form Styling */
+.ageContainer {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.ageContainer h4 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.dateInput {
+    padding: 10px;
+    width: 100%;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.submitButton {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #357ab7;
+}
+
+
+.ageDisplay {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #333;
+}
